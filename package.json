@@ -1,0 +1,22 @@
+{
+    "name": "meme-image-parser",
+    "version": "1.0.0",
+    "description": "Parses popular image websites to build a database of stock meme images.",
+    "main": "index.js",
+    "scripts": {
+        "start": "casperjs src/parser.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sean-perkins/meme-image-parser.git"
+    },
+    "author": "Sean Perkins <sean@meetmaestro.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sean-perkins/meme-image-parser/issues"
+    },
+    "homepage": "https://github.com/sean-perkins/meme-image-parser#readme",
+    "devDependencies": {
+        "casperjs": "^1.1.4"
+    }
+}
